@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="fullname">Fullname</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="already_registered_nlogin_here">Already Registered?\nLogin Here</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="todo">TODO</string>
+
+</resources>
