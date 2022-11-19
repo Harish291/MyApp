@@ -5,6 +5,9 @@ plugins {
 android {
     namespace 'chandan.harish.myapp'
     compileSdk 32
+    buildFeatures {
+        viewBinding true
+    }
 
     defaultConfig {
         applicationId "chandan.harish.myapp"
@@ -37,6 +40,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.24'
+    implementation 'com.google.android.material:material:1.3.0-alpha03'
     //RETROFIT
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.google.code.gson:gson:2.8.6'
